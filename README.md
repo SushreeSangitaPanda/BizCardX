@@ -38,13 +38,38 @@ BizCardX is a Streamlit application designed to effortlessly extract relevant in
    - A disclaimer message informs users that the detected text on the image might not always be accurate due to ongoing development and improvements in the OCR technology.
    - An informative message at the end of the page reiterates that the application is not perfect, and results may vary depending on image quality and card layout complexity.
 
-## Execution
+## Execution of the BizCardX Streamlit application based on the provided code:
 
-1. Install the required dependencies mentioned in the project environment (Python, Streamlit, easyOCR, OpenCV).
-2. Create a database (SQLite or MySQL) to store the extracted business card data.
-3. Ensure the necessary images ("biz1.png," "ocr.png," "data.png") are present in the project directory.
-4. Run the "app.py" file to start the Streamlit application.
-5. The application will launch in the default web browser, and the user can interact with the GUI.
-6. The user can select the desired menu from the sidebar and follow the instructions to extract data from business card images and manage the database entries.
+1. **Set Up Environment**: Ensure that Python, Streamlit, and other required libraries (OpenCV, easyOCR, etc.) are installed in the environment.
 
-Please note that the application is under development, and improvements are continuously being made to enhance the accuracy of the OCR results.
+2. **Prepare Images**: Have a set of business card images in a suitable format (jpg, jpeg, or png) ready for testing the application.
+
+3. **Database Creation**: Run the application code to create an SQLite database named "business_cards1.db" (if it doesn't already exist) and create a table named "card_data" to store extracted business card information and images.
+
+4. **Start the Application**: Run the Streamlit application using the command: `streamlit run your_script.py` (replace "your_script.py" with the filename of the code).
+
+5. **Home Page**: The application will open with a home page displaying the application title ("BizCardX") and an introduction describing the purpose of the application, technologies used, and a brief overview of features.
+
+6. **Navigation**: On the left sidebar, users can find three main menu options: "Home," "Image Data," and "Database." The "Home" option is selected by default.
+
+7. **Image Data**: If the user selects "Image Data," they will be able to upload a business card image using the file uploader. Once the image is uploaded, the application will display the image and provide options to perform OCR text bounding and text extraction.
+
+8. **OCR Text Bounding**: By clicking the "TEXT BOUNDING" button, the application will highlight the detected text regions using green rectangles. Note that this feature may not be perfectly accurate as the application is still under development.
+
+9. **OCR Text Extraction**: By clicking the "EXTRACT & UPLOAD" button, the application will use the easyOCR library to extract relevant information from the business card image. The extracted data, such as name, designation, company, contact, email, website, address, city, state, and pin code, will be displayed on the screen.
+
+10. **Database Operations**: If the user selects "Database," the application will display the extracted business card information stored in the SQLite database in a tabular format.
+
+11. **View Image Data**: Users can select a specific name and designation from the displayed data and click the "Show Image" button to view the corresponding business card image.
+
+12. **Update Data**: To update data in the database, users can select a name and designation, choose a specific column to update (e.g., name, designation, company), and enter the new data in the input field. Clicking the "Update" button will apply the changes to the selected row in the database.
+
+13. **Delete Data**: To delete data from the database, users can select a name and designation and click the "DELETE" button to remove the corresponding row.
+
+14. **Disclaimer and Info Message**: At the end of the application, there will be a disclaimer regarding the accuracy of the detected text and a general info message.
+
+15. **Application Behavior**: Throughout the application, Streamlit's interactive and reactive behavior ensures that the GUI responds to user actions in real-time, updating the displayed content accordingly.
+
+16. **Termination**: The application will continue running until the user stops it explicitly or closes the terminal where it is running.
+
+Remember that the application might still be a work in progress, and improvements to text extraction accuracy and additional features may be continuously added based on ongoing development efforts.
