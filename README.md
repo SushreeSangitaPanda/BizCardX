@@ -9,7 +9,8 @@ BizCardX is a Streamlit application designed to effortlessly extract relevant in
    - The application opens with a home page that welcomes the users to BizCardX.
    - The user is provided with an overview of the application's capabilities and features.
    - The home page also showcases the technologies and tools used in the project, including Python, Streamlit, easyOCR, and SQLite/MySQL.
-   - <img width="859" alt="image" src="https://github.com/SushreeSangitaPanda/BizCardX/assets/50452901/5c7681d0-8083-495b-8503-b3e9aa58ec46">
+     
+     <img width="862" alt="image" src="https://github.com/SushreeSangitaPanda/BizCardX/assets/50452901/f4e5e4db-1bc4-42f1-9180-529d911c2fec">
 
 
 2. **Image Data Extraction**:
