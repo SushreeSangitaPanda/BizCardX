@@ -10,7 +10,7 @@ BizCardX is a Streamlit application designed to effortlessly extract relevant in
    - The user is provided with an overview of the application's capabilities and features.
    - The home page also showcases the technologies and tools used in the project, including Python, Streamlit, easyOCR, and SQLite/MySQL.
      
-     <img width="862" alt="image" src="https://github.com/SushreeSangitaPanda/BizCardX/assets/50452901/f4e5e4db-1bc4-42f1-9180-529d911c2fec">
+     <img width="931" alt="image" src="https://github.com/SushreeSangitaPanda/BizCardX/assets/50452901/f4e5e4db-1bc4-42f1-9180-529d911c2fec">
 
 
 2. **Image Data Extraction**:
@@ -22,7 +22,7 @@ BizCardX is a Streamlit application designed to effortlessly extract relevant in
    - Users have the option to view a bounding box around the detected text for verification purposes.
    - The extracted data can be saved to the database by clicking the "EXTRACT & UPLOAD" button. The data, along with the uploaded image, is inserted into the SQLite database.
      
-<img width="847" alt="image" src="https://github.com/SushreeSangitaPanda/BizCardX/assets/50452901/989673a6-1401-4292-b09f-ec91cdeab12a">
+<img width="931" alt="image" src="https://github.com/SushreeSangitaPanda/BizCardX/assets/50452901/989673a6-1401-4292-b09f-ec91cdeab12a">
 
 3. **Database Management**:
    - Users can access the "Database" menu from the sidebar to manage the stored data.
@@ -32,7 +32,7 @@ BizCardX is a Streamlit application designed to effortlessly extract relevant in
      - "Update data": Users can select a name and designation to update from the database and modify specific fields (e.g., name, designation, contact number, email, etc.).
      - "Delete data": Users can select a name and designation from the database and delete the corresponding entry.
        
-<img width="847" alt="image" src="https://github.com/SushreeSangitaPanda/BizCardX/assets/50452901/8dc58883-08a7-4afa-b887-b6c6c642e9a9">
+<img width="931" alt="image" src="https://github.com/SushreeSangitaPanda/BizCardX/assets/50452901/8dc58883-08a7-4afa-b887-b6c6c642e9a9">
 
 4. **Disclaimer and Info**:
    - A disclaimer message informs users that the detected text on the image might not always be accurate due to ongoing development and improvements in the OCR technology.
